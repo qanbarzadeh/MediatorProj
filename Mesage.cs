@@ -1,6 +1,6 @@
 ﻿namespace MediatorProj
 {
-    public class Mesage
+    public class Message
     {
         public IColleague Sender { get; private set; }
         public string MessageContent { get; private set; }

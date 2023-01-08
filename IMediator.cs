@@ -8,7 +8,7 @@ namespace MediatorProj
 {
     public interface IMediator
     {
-        void Send(Mesage message); // Send message to all participants
+        void Send(Message message); // Send message to all participants
 
     }
 

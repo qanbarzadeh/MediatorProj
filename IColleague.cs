@@ -9,7 +9,6 @@ namespace MediatorProj
     public interface IColleague
     {
         string Name { get; }
-        void ReceiveMessage(Mesage message);
-
+        void ReceiveMessage(Message message);
     }
 }
