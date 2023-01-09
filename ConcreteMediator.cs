@@ -18,10 +18,12 @@ namespace MediatorProj
         {
             foreach (var colleague in _colleagues)
             {
-                if (colleague != message.sender)
-                {
-                    colleague.ReceiveMessage(message);
-                }
+                //if (colleague != message.sender)
+                //{
+                //    colleague.ReceiveMessage(message);
+                //}
+
+                colleague.ReceiveMessage(message);
             }
         }
     }
