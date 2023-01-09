@@ -8,9 +8,7 @@ namespace MediatorProj
 {
     public class ConcreteMediator : IMediator
     {
-
         private readonly List<IColleague> _colleagues;
-
         public ConcreteMediator(params IColleague[] colleagues)
         {
             ArgumentNullException.ThrowIfNull(colleagues);
