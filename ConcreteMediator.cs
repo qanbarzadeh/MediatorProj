@@ -18,7 +18,7 @@ namespace MediatorProj
         {
             foreach (var colleague in _colleagues)
             {
-                if (colleague != message.Sender)
+                if (colleague != message.sender)
                 {
                     colleague.ReceiveMessage(message);
                 }
